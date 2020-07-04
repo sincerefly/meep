@@ -1,2 +1,2 @@
 # meep
-:star: simple file service
+:seedling: Simple file service
