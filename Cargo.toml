@@ -1,0 +1,28 @@
+[package]
+name = "meep"
+version = "0.1.0"
+authors = ["kissbug8720 <kissbug8720@gmail.com>"]
+edition = "2018"
+
+license = "MIT"
+description = "Simple file uploader in Actix Web with Async/Await"
+keywords = ["actix", "actix-web", "multipart"]
+repository = "https://github.com/actix/examples"
+readme = "README.md"
+
+[dependencies]
+futures = "0.3.1"
+actix-multipart = "0.2.0"
+actix-web = "2.0.0"
+actix-rt = "1.0.0"
+async-std = "1.4.0"
+sanitize-filename = "0.2"
+
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+json = "0.12"
+rand = "0.7.3"
+actix-files = "0.2.2"
+dotenv = "0.15.0"
+actix-cors = "0.2.0"
+
